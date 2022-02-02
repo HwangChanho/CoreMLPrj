@@ -6,7 +6,8 @@
 
 - Accelerate랑 MPSes는 여전히 사용되지만 Core ML 내부에서 동작하고, Core ML이 이 내부 프레임워크중 어느것을 사용해야할지 결정해준다.
 
-![CoreMLStructure.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e0916ae5-9f01-42a0-9fac-116bb26078c9/CoreMLStructure.png)
+<img width="695" alt="CoreMLStructure" src="https://user-images.githubusercontent.com/57205272/152163062-284d5a21-fc1c-4e4f-a977-01fac13fb29d.png">
+
 
 ### 그래서 CoreML이 뭔가?
 
@@ -15,14 +16,15 @@
 ### 작업 흐름
 
 > ML 작업 흐름은 **훈련(training)** 과 **추론(interface)**의 두 가지 주요 작업으로 구성된다.
-> 
 
-![CoreML_training_structure.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9e446341-8eef-41ee-9fb3-65b04571f50e/CoreML_training_structure.png)
+<img width="752" alt="CoreML_training_structure" src="https://user-images.githubusercontent.com/57205272/152163095-c330733e-c21e-4ae7-81ec-af8d2c899291.png">
+
 
 - Core ML Tools는 Keras, turi, Caffe, scikit-learn, LibSVN, XGBoost 프레임워크를 포함하여 내부 혹은 서드파티 플러그인 프레임워크 대부분을 지원한다.
 - 또한 애플은 이 패키지를 다름 프레임워크나 직접 사용할 수 있도록 모듈식으로 구성해 오픈소스로 제공한다.
 
-![CoreML_Model_As_Code.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/62540944-812f-4d33-ba3c-67f4bbda5c3b/CoreML_Model_As_Code.png)
+<img width="724" alt="CoreML_Model_As_Code" src="https://user-images.githubusercontent.com/57205272/152163128-a573b9a8-8e28-4d18-8342-9c7f7f69ccab.png">
+
 
 - 모델이 import 되면 Xcode는 모델과 모델의 입력과 출력을 감싸는 인터페이스를 생성한다.
 
