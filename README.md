@@ -15,7 +15,7 @@
 
 ### 작업 흐름
 
-> ML 작업 흐름은 **훈련(training)** 과 **추론(interface)**의 두 가지 주요 작업으로 구성된다.
+> ML 작업 흐름은 **훈련(training) 과 **추론(interface)의 두 가지 주요 작업으로 구성된다.
 
 <img width="752" alt="CoreML_training_structure" src="https://user-images.githubusercontent.com/57205272/152163095-c330733e-c21e-4ae7-81ec-af8d2c899291.png">
 
